@@ -1,0 +1,9 @@
+{
+  "extends": "@apnaplay/config/tsconfig/node",
+  "compilerOptions": {
+    "outDir": "dist",
+    "rootDir": "src",
+    "lib": ["ES2022", "DOM"]
+  },
+  "include": ["src"]
+}
